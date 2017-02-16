@@ -38,6 +38,6 @@ p {font-size: 16px;}
     color: #1abc9c !important;
 }
 
-#log_table {
-  padding: 200px;
+#log_bottom {
+  padding-bottom: 50px;
 }
