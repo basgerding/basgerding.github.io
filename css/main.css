@@ -38,6 +38,7 @@ p {font-size: 16px;}
     color: #1abc9c !important;
 }
 
-#log_bottom {
+#padding_fix {
   padding-top: 200px;
+  padding-bottom: 240px;
 }
