@@ -1,0 +1,15 @@
+body {
+  background-image: url(http://cdn.pcwallart.com/images/balloons-photography-wallpaper-1.jpg);
+  background-size: auto;
+  color: pink;
+}
+
+h1, h2, h3, p {
+  font-family: monospace;
+  text-shadow: 2px 2px black;
+}
+
+.jumbotron {
+  background-image: url(http://vignette2.wikia.nocookie.net/planttycoon/images/9/9d/GRASS.JPG/revision/latest?cb=20160417142616);
+  background-size: contain;
+}

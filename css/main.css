@@ -1,8 +1,4 @@
 body {
-  padding-top: 65px;
-  background-color: orange;
-}
-
-.navbar navbar-inverse navbar-fixed-top {
-  background-color: #669999;
+	padding-top: 65px;
+	background-color: orange;
 }
