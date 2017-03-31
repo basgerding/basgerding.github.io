@@ -52,18 +52,18 @@ body {
 }
 
 footer{
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	background-color: #303030;
 	color: #9D9D9D;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 2em;
 }
 
-@media (max-height:800px){
-	footer { position: static; }
+@media (max-height:1200px){
+	footer { position: relative; }
 	header { padding-top:40px; }
 }
 
