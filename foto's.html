@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Grill &amp; Chill</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/main.css" id="pagestyle" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="jumbotron">
+		<center>
+			<a href="index.html"><img height="300px" src="css/images/logo.png" width="270px"></a>
+		</center>
+	</div>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+          <li>
+						<a href="index.html">
+						<h5>Home</h5></a>
+					</li>
+					<li>
+						<a href="menu.html">
+						<h5>Menu</h5></a>
+					</li>
+					<li>
+						<a href="reserveren.html">
+						<h5>Reserveren</h5></a>
+					</li>
+					<li class="active">
+						<a href="foto's.html">
+						<h5>Foto's</h5></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="menu-section-title" id="left-text">Foto's</h2>
+			</div>
+			<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/sfeer/meat1.png"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/sfeer/inside1.jpeg"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/sfeer/meat2.jpeg"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/sfeer/inside2.jpeg"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/sfeer/meat3.jpeg"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/sfeer/inside3.jpeg"></a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		Grill &amp; Chill &bull; Kleine Snor 1 &bull; Groningen
+		<div class="map-padding">
+			<center>
+				<div id="googleMap" style="width:50%;height:200px;"></div>
+				<script>
+				            function myMap() {
+				            var mapProp= {
+				            center:new google.maps.LatLng(53.220218,6.569970),
+				            zoom:10,
+				            };
+				            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				            }
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjW30Q9EXFwDHX3932ebDEUI6EG4RsNM4&callback=myMap">
+				</script>
+			</center>
+		</div>
+	</footer><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js">
+	</script> <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+	<script src="js/bootstrap.min.js">
+	</script>
+</body>
+</html>

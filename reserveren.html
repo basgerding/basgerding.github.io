@@ -13,7 +13,8 @@
 <body>
 	<div class="jumbotron">
 		<center>
-			<img height="300px" src="css/images/logo.png" width="270px">
+			<a href="index.html">
+			<img height="300px" src="css/images/logo.png" width="270px"></a>
 		</center>
 	</div>
 	<nav class="navbar navbar-inverse">
@@ -36,19 +37,22 @@
 						<h5>Reserveren</h5></a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="foto's.html">
 						<h5>Foto's</h5></a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-
-<div class="form-body"
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+<div class="form-body">
 	<form method="post" action="//submit.form" onSubmit="return validateForm();">
  <div style="width: 400px;">
  </div>
- <div style="padding-bottom: 18px;font-size : 21px;"><h2 class="menu-section-title">Tafel boeken</h2></div>
+ <div style="padding-bottom: 18px;font-size : 21px;"><h2 class="menu-section-title" id="left-text">Tafel boeken</h2></div>
  <div style="padding-bottom: 18px;">Naam<span style="color: red;"> *</span><br/>
  <input type="text" id="data_3" name="data_3" style="width : 350px;" class="form-control"/>
  </div>
@@ -86,9 +90,12 @@
  </div>
  <div class="submit-button" style="padding-bottom: 18px;"><input name="skip_Submit" value="Verstuur" type="submit"/></div>
  <div>
- <script src="https://www.100forms.com/js/FORMKEY:2X5MXK4MRZMR" type="text/javascript"></script>
  </div>
  </form>
+</div>
+</div>
+<div class="col-lg-4"><img alt="inside" class="img-fluid img-rounded" src="css/images/steakhouse-inside.jpeg"><img alt="inside" class="img-fluid img-rounded" src="css/images/steakhouse-inside2.jpeg"></div>
+</div>
 </div>
 
  <script type="text/javascript">
@@ -136,9 +143,6 @@
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjW30Q9EXFwDHX3932ebDEUI6EG4RsNM4&callback=myMap"></script></center></div>
 	</footer>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow79.js"></script>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery.min.js">
