@@ -1,123 +1,147 @@
 .navbar {
-	border-radius: 0;
+    border-radius: 0;
 }
+
 .jumbotron {
-	margin-bottom: 0;
-	background-image: url('../css/images/header2.jpeg');
-	background-size: cover;
+    margin-bottom: 0;
+    background-image: url('../css/images/header2.jpeg');
+    background-size: cover;
 }
+
 .img-fluid {
-	max-width: 100%;
-	height: auto;
-	padding-bottom: 1em;
-	padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+    padding-top: 20px;
 }
+
 .img-shadow {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
+
 #header {
-	color: white;
-	font-family: georgia;
+    color: white;
+    font-family: georgia;
 }
+
 .shadow {
-	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
 }
+
 .h1-padding {
-	padding-left: 35px;
-	color: white;
+    padding-left: 35px;
+    color: white;
 }
+
 p {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	color: white;
-	max-width: 50em;
-	padding-left: 5px;
-	font-family: helvetica;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    max-width: 50em;
+    padding-left: 5px;
+    font-family: helvetica;
 }
+
 body {
-	background-image: url('../css/images/chalkboard.jpg');
-	position: relative;
+    background-image: url('../css/images/chalkboard.jpg');
+    position: relative;
 }
+
 .transparent {
-	background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .4);
 }
+
 footer {
-	position: absolute;
-	bottom: 0;
-	background-color: #303030;
-	color: #9D9D9D;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	text-align: center;
-	margin-top: 2em;
+    position: absolute;
+    bottom: 0;
+    background-color: #303030;
+    color: #9D9D9D;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin-top: 2em;
 }
+
 @media (max-height:1200px) {
-	footer {
-		position: relative;
-	}
-	header {
-		padding-top: 40px;
-	}
+    footer {
+        position: relative;
+    }
+    header {
+        padding-top: 40px;
+    }
 }
+
 .map-padding {
-	padding-top: 1em;
-	padding-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
+
 .page-title {
-	font-family: georgia;
-	font-size: 40px;
-	display: block;
-	font-weight: normal;
-	margin: 20px 0;
+    font-family: georgia;
+    font-size: 40px;
+    display: block;
+    font-weight: normal;
+    margin: 20px 0;
 }
+
 .menu-body {
-	max-width: 680px;
-	margin: 0 auto;
-	display: block;
-	color: white;
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: white;
 }
+
 .menu-section {
-	margin-bottom: 80px;
+    margin-bottom: 80px;
 }
+
 .menu-section-title {
-	font-family: georgia;
-	font-size: 40px;
-	display: block;
-	font-weight: normal;
-	margin: 20px 0;
-	text-align: center;
+    font-family: georgia;
+    font-size: 40px;
+    display: block;
+    font-weight: normal;
+    margin: 20px 0;
+    text-align: center;
 }
+
 .menu-item {
-	margin: 35px 0;
-	font-size: 18px;
+    margin: 35px 0;
+    font-size: 18px;
 }
+
 .menu-item-name {
-	font-family: helvetica;
-	font-weight: bold;
-	border-bottom: 2px dotted rgb(213, 213, 213);
+    font-family: helvetica;
+    font-weight: bold;
+    border-bottom: 2px dotted rgb(213, 213, 213);
 }
+
 .menu-item-description {
-	font-style: italic;
-	font-size: .9em;
-	line-height: 1.5em;
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
 }
+
 .menu-item-price {
-	float: right;
-	font-weight: bold;
-	font-family: arial;
-	margin-top: -22px;
+    float: right;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: -22px;
 }
 
 .form-body {
-	color: white;
-	text-align: left;
+    color: white;
+    text-align: left;
 }
 
 .submit-button {
-	color:black;
+    color: black;
 }
 
 #left-text {
-	text-align: left;
-	color: white;
+    text-align: left;
+    color: white;
+}
+
+.white {
+    color: white;
 }

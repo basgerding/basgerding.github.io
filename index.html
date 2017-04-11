@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="robots" content="noindex">
+	<link href="css/images/favicon.ico" rel="icon" type="image/x-icon" />
 	<title>Grill &amp; Chill</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/main.css" id="pagestyle" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 	<div class="jumbotron">
 		<center>
 			<a href="index.html">
-			<img height="300px" src="css/images/logo.png" width="270px"></a>
+				<img height="300px" src="css/images/logo.png" width="270px"></a>
 		</center>
 	</div>
 	<nav class="navbar navbar-inverse">
@@ -26,19 +30,19 @@
 				<ul class="nav navbar-nav">
 					<li class="active">
 						<a href="index.html">
-						<h5>Home</h5></a>
+							<h5>Home</h5></a>
 					</li>
 					<li>
 						<a href="menu.html">
-						<h5>Menu</h5></a>
+							<h5>Menu</h5></a>
 					</li>
 					<li>
 						<a href="reserveren.html">
-						<h5>Reserveren</h5></a>
+							<h5>Reserveren</h5></a>
 					</li>
 					<li>
 						<a href="foto's.html">
-						<h5>Foto's</h5></a>
+							<h5>Foto's</h5></a>
 					</li>
 				</ul>
 			</div>
@@ -48,12 +52,21 @@
 		<div class="row">
 			<div class="col-lg-8">
 				<h2 class="menu-section-title" id="left-text">Heerlijk genieten</h2>
-				<p>Ouder alles dient spijt om na al wilde. Thee men rug soms bate. Ton ongunstig gesmolten vernielen van arabieren entrepots. Land is de te zien zeer deel. Ze jaarlijks er vernieuwd schepping ik en. Pagoden voldoen dal dag toegang dat aandeel vreemde dollars. Beperkt hielden gebruik te na opnieuw is wolfram in hoeveel.</p>
-				<p>Af al groote echter koeken verren te op. Generaal baksteen vestigen de ze bladeren. Ze honderd af nu betaald plantte. Voldoen nam aan elk stijgen bezocht geplant. Om naast de gayah werkt naast moest op. Tijd zand ver kant klei had mijn far. Ziedaar wat staande meestal geleden invloed gevolgd zal. Dik men fransche schaffen are uithoudt ver.</p>
-				<p>Ten europeesch wij wij vruchtbaar losgemaakt voertuigen. Sombere haalden ze na afneemt inkomen. In en weten witte meest wordt halen groen. Den opmeting verleden zit baksteen wat. Dal goa wild niet dat per kost. Zoodat vormen te op in mensch. Verdiende zoo brandhout kettingen zij toe men. Ontsnappen uit aanmerking aan productief heb krachtiger smeltovens.</p>
-				<p>Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst.</p>
+				<p>Een familiebedrijf dat traditiegetrouw voorop loopt in gastvrijheid en die tot ver buiten Groningen een behoorlijke populariteit geniet. Dit is zeker niet in de laatste plaats te danken aan de informele sfeer die de zaak zo vele gasten heeft bezorgd.</p>
+				<p>Vanaf het prille begin, zo’n 25 jaar geleden tot op de dag van vandaag is Grill &amp; Chill een begrip in Groningen door de unieke formule. Topkwaliteit vlees en vis. Een op de Amerikaanse leest geschoeide entourage met steeds weer nieuwe verrassende
+					dingen. Vlot en deskundig keuken- en bedieningspersoneel. Vaak live (achtergrond) muziek in de weekenden en op bijzondere dagen. Gratis grote eigen parkeerplaats. Deze en nog vele andere zaken maken Grill &amp; Chill tot “vaak geïmiteerd, nooit geëvenaard”.</p>
+				<p>Bij binnenkomst valt direct de gezellige ambiance op en de open keuken. Warme kleuren, samen met opvallende decoraties, zorgen voor een gemoedelijke sfeer, die verstrekt wordt door de zithoek met doppinda’s (doppen op de grond) en openhaard. Daar
+					kunt u genieten van een drankje voordat u aan tafel gaat of genieten van een kopje koffie na het diner. Ook is er uiteraard de mogelijkheid om voor het diner gezellig te borrelen bij ons aan de bar. Bij mooi weer staat ons terras voor u klaar!</p>
 			</div>
-			<div class="col-lg-4"><img alt="beefburger" class="img-fluid img-rounded" src="css/images/burger.jpeg"> <img alt="beefburger" class="img-fluid img-rounded" src="css/images/beef.jpg"> <img alt="beefburger" class="img-fluid img-rounded" src="css/images/morebeef.jpg"></div>
+			<div class="col-lg-3 col-md-2 col-xs-12 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/steak2.jpeg"></a>
+			</div>
+			<div class="col-lg-3 col-md-2 col-xs-12 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/diner.jpeg"></a>
+			</div>
+			<div class="col-lg-3 col-md-2 col-xs-12 thumb">
+				<a class="thumbnail" href="#"><img alt="" class="img-responsive" src="css/images/beef.jpg"></a>
+			</div>
 		</div>
 	</div>
 	<footer>
@@ -62,24 +75,53 @@
 			<center>
 				<div id="googleMap" style="width:50%;height:200px;"></div>
 				<script>
-				function myMap() {
-				var mapProp= {
-				center:new google.maps.LatLng(53.220218,6.569970),
-				zoom:10,
-				};
-				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-				}
+					function myMap() {
+						var mapProp = {
+							center: new google.maps.LatLng(53.220218, 6.569970),
+							zoom: 10,
+						};
+						var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+					}
 				</script>
 				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjW30Q9EXFwDHX3932ebDEUI6EG4RsNM4&callback=myMap">
 				</script>
 			</center>
 		</div>
-	</footer><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<div class="container" id="left-text">
+			<div class="table-responsive">
+				<table class="table table-condensed">
+					<thead>
+						<tr>
+							<th>Dag(en)</th>
+							<th>Openingstijden</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Maandag t/m vrijdag</td>
+							<td>17:00 - 22:00</td>
+						</tr>
+						<tr>
+							<td>Zaterdag</td>
+							<td>17:00 - 00:00</td>
+						</tr>
+						<tr>
+							<td>Zondag</td>
+							<td>16:00 - 22:00</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery.min.js">
-	</script> <!-- Include all compiled plugins (below), or include individual files as needed -->
+	</script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
 
 	<script src="js/bootstrap.min.js">
 	</script>
 
 </body>
+
 </html>
